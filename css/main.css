@@ -1,0 +1,13 @@
+button {
+	font-size: 18px;
+	padding: 8px;
+}
+
+div {
+	display: inline-block;
+	margin: 8px;
+}
+
+.controller {
+	display: block;
+}

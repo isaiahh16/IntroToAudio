@@ -9,9 +9,36 @@
 <body>
 	<h1>simple audio example</h1>
 
-	<audio src="audio/companion.mp3" controls></audio>
+	<audio id="jukebox" src=""></audio>
 
-	<audio src="STP_Interstate_Love_Song.mp3" controls></audio>
+	<div>
+		<img src="images/shrek.png" alt="" width="200">
+	<div class="controller">
+		<button class="playTrack" data-trackref="Companion">play</button>
+		<button class="pauseTrack">pause</button>
+		<button class="rwTrack">rewind</button>
+	</div>
+
+	<div>
+		<img src="images/stp.jpg" alt="">
+		<button class="playTrack" data-trackref="stp">play</button>
+		<button class="pauseTrack">pause</button>
+		<button class="rwTrack">rewind</button>
+	</div>
+
+	<div>
+		<img src="images/albatroz.jpg" alt="">
+		<button class="playTrack" data-trackref="albatroz">play</button>
+		<button class="pauseTrack">pause</button>
+		<button class="rwTrack">rewind</button>
+	</div>
+	</div>
+
+	<!--<audio src="audio/Companion.mp3" controls></audio> -->
+
+	<!--<audio src="audio/stp.mp3" controls></audio> -->
+
+	<!--<audio src="audio/albatroz.mp3" controls></audio> -->
 
 
 	<script src="js/main.js"></script>
